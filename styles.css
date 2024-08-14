@@ -1,0 +1,91 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+/* Container Styling */
+.converter {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+/* Input Field Styling */
+.input-field {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 1em;
+    color: #333;
+    outline: none;
+    text-align: center;
+}
+
+/* Dropdown Styling */
+.dropdown {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 1em;
+    color: #333;
+    outline: none;
+    text-align: center;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+/* Button Styling */
+.convert-btn {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border-radius: 50px;
+    border: none;
+    background: #ff7e5f;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+}
+
+.convert-btn:hover {
+    background: linear-gradient(to right, #feb47b, #ff7e5f);
+}
+
+/* Result Styling */
+.result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
